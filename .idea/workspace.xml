@@ -5,16 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a70c9b4b-3315-4276-b470-4c13627c3030" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.sequelizerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/migrations/20240227010352-create-pessoa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/pessoa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/PessoaController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/pessoasRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seeders/20240229222759-demo-pessoa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sequelizerc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/database.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/20240227010352-create-pessoa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20240227010352-create-pessoa.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/src/controllers/PessoaController.js" />
+    </disable_hints>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,7 +50,13 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/arquivos-base/seederPessoas.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/controllers/PessoaController.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/models/pessoa.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/routes/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/routes/pessoasRoute.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/seeders/20240229222759-demo-pessoa.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,22 +72,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MDiniz/Documents/github/work/Frota/APIManutencao360&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/MDiniz/Documents/github/work/Multas/APIMultas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MDiniz\Documents\github\study\ORM-com-Node.js-desenvolvendo-uma-API-com-Sequelize-e-SQLite\src" />
@@ -90,6 +106,10 @@
       <workItem from="1708995981641" duration="62000" />
       <workItem from="1708996101787" duration="8000" />
       <workItem from="1708996115713" duration="962000" />
+      <workItem from="1709051400846" duration="20000" />
+      <workItem from="1709074318980" duration="6000" />
+      <workItem from="1709074331468" duration="2000" />
+      <workItem from="1709244583362" duration="3282000" />
     </task>
     <servers />
   </component>
